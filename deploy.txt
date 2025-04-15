@@ -1,0 +1,5 @@
+docker部署:
+
+1. sudo docker build -t mcpo-image .
+
+2. sudo docker run -d -v /home/xieyezi/mcp-server/config.json:/app/config.json -p 8000:8000 mcpo-image
